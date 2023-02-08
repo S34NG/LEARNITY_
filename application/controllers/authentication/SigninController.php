@@ -1,11 +1,11 @@
 <?php
 
-class LoginController extends CI_Controller
+class SignininController extends CI_Controller
 {
     public function index()
     {
         // Render the login view
-        $this->load->view('signin');
+        $this->load->view('signIn/signIn');
     }
 
     public function authenticate()
